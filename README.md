@@ -122,7 +122,7 @@ h1, h2 {
       border-radius: 6px;
       margin-top: 6px;
       font-family: Helvetica, Arial, sans-serif;
-box-sizing: border-box;
+      box-sizing: border-box;
     }
 
     input[type="submit"] {
@@ -290,10 +290,9 @@ box-sizing: border-box;
 
   <section id="about">
     <h2>About Me</h2>
-
     <h3>Background & Education</h3>
     <p>
-      I study <strong>Arts and Media Studies</strong> at Fulbright University Vietnam, focusing on directing skill, cinematography and writting scripts. I also have done a lot more creative projects like theater play, podcast, writtings,...
+      I study <strong> Arts and Media Studies</strong> at Fulbright University Vietnam, focusing on directing skill, cinematography and writting scripts. I also have done a lot more creative projects like theater play, podcast, writtings,...
     </p>
 
    <h3>Skills</h3>
@@ -311,7 +310,6 @@ box-sizing: border-box;
         <td>MMA, Pro Wrestling, Ultimate Frisbee</td>
       </tr>
     </table>
-
     <h3>Hobbies</h3>
     <ul>
       <li>Gaming (TFT - Master / Marvel Rivals - Diamond)</li>
@@ -380,23 +378,18 @@ box-sizing: border-box;
 <section id="contact">
     <h2>Contact Me</h2>
     <p>You know who I am now, maybe leave me a message?</p>
-
     <ul>
       <li><strong>Email:</strong> zackizapp@gmail.com</li>
       <li><strong>Phone:</strong> +84 98888888 </li>
       <li><strong>Address:</strong> Ho Chi Minh City, Vietnam</li>
     </ul>
-
     <form action="#" method="post">
       <label for="name">Your Name:</label><br>
       <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
-
       <label for="email">Your Email:</label><br>
       <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
-
       <label for="message">Your Message:</label><br>
       <textarea id="message" name="message" rows="5" placeholder="Type your message here..."></textarea><br><br>
-
       <input type="submit" value="Send Message">
     </form>
   </section>
@@ -404,16 +397,13 @@ box-sizing: border-box;
   <section id="notebook">
     <h2>My Notebook</h2>
     <p>Write down your reflections or reminders below:</p>
-
     <textarea id="noteInput" placeholder="Type your note here..." rows="4"></textarea>
     <br><br>
-
     <button id="addNoteButton" 
             style="padding: 10px 18px; background-color: var(--main); color: white; 
             border: none; border-radius: 6px; cursor: pointer; font-weight: bold;">
       Add Note
     </button>
-
     <div id="notesList" style="margin-top: 25px;"></div>
   </section>
 
