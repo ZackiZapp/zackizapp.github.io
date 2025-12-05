@@ -232,13 +232,6 @@ h1, h2 {
   100% { filter: hue-rotate(360deg); }
 }
 
-#noteInput {
-  background: #0e0e0e;
-  color: #f2ece6;
-  border: 2px solid darkred;
-  box-shadow: inset 0 0 10px rgba(255,0,0,0.2);
-}
-
 
 @keyframes fadeIn {
   from {
@@ -270,9 +263,6 @@ h1, h2 {
   font-weight: bold;
   box-shadow: 0 8px 20px rgba(0,0,0,0.5);
 }
-
-
-
    </style>
 </head>
 
@@ -374,6 +364,7 @@ h1, h2 {
     </p>
   </div>
 </div>
+</section>
 
 <section id="contact">
     <h2>Contact Me</h2>
